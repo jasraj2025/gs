@@ -1,0 +1,29 @@
+h3{
+    font-size:25px;
+}
+
+.btn-success :hover
+{
+    background-color: red;
+}
+
+canvas{
+    animation-name: my_canvas;
+    animation-duration:0.9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes my_canvas {
+    from {border: 10px; border-color: aliceblue;  border-style: dashed;}
+    to{border: 10px; border-color: cadetblue;  border-style: dotted;}
+
+}
+
+#my:hover{
+    background-color: red;
+}
+
+.bg{
+    background-size: cover;
+    background-position: center;
+}
